@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - TechCore</title>
+  
+
+    <script src="../js/menuToggle.js"></script>
+    <script src="../js/register.js"></script>
+<link rel="stylesheet" href="../css/index.css"></head>
+../
+<body>
+
+    <header class="main-header">
+        <div class="nav-container">
+            <div class="logo"> <a href="../index.html"> TECH<span class="accent-text">CORE</span> </a> </div>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li> <a href="../index.html" class="active"> Home </a> </li>
+                    <li> <a href="../index.html#about"> About Us </a> </li>
+                    <li> <a href="../index.html#services"> Services </a> </li>
+                    <li> <a href="projects.html"> Projects </a> </li>
+                    <li> <a href="contact.html"> Contact Us </a> </li>
+                    <li><a href="register.html"> register </a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions"></div> <button
+                class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu"> ☰ </button>
+        </div>
+    </header>
+    <main>
+
+        <section class="auth-section">
+
+            <div class="auth-card">
+
+                <h2>Welcome Back</h2>
+
+                <p class="auth-subtitle">
+                    Login to your TechCore account
+                </p>
+                <form>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="put a password" required
+                            minlength="8" maxlength="30" pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,}"
+                            title="Password must be at least 8 characters and contain letters and numbers">
+                    </div>
+
+                    <button type="submit" class="auth-button">
+                        Login
+                    </button>
+
+                </form>
+                <p class="auth-footer">
+                    Don't have an account?
+                    <a href="register.html">Create Account</a>
+                </p>
+
+            </div>
+
+       
+    </main>
+
+</body>
+
+</html>

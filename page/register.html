@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Register - TechCore</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/index.css">
+
+
+
+
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="nav-container">
+            <div class="logo"> <a href="../index.html"> TECH<span class="accent-text">CORE</span> </a> </div>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li> <a href="../index.html" class="active"> Home </a> </li>
+                    <li> <a href="../index.html#about"> About Us </a> </li>
+                    <li> <a href="../index.html#services"> Services </a> </li>
+                    <li> <a href="projects.html"> Projects </a> </li>
+                    <li> <a href="contact.html"> Contact Us </a> </li>
+                </ul>
+            </nav>
+            <div class="nav-actions"> <a href="login.html" class="btn-primary"> login </a> </div> <button
+                class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu"> ☰ </button>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="auth-section">
+
+            <div class="auth-card">
+
+                <h2>Create Account</h2>
+
+                <p class="auth-subtitle">
+                    Join TechCore and get started today
+                </p>
+
+
+
+                <form id="registerForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required
+                            minlength="3" maxlength="50">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <input type="password" id="password" name="password" placeholder="Create a password" required
+                            minlength="8" maxlength="30" pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,}"
+                            title="Password must be at least 8 characters and contain letters and numbers">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+
+
+                        <button type="submit" class="auth-button">
+                            Register
+                        </button>
+
+                </form>
+
+                <p class="auth-footer">
+
+                    Already have an account?
+
+                    <a href="login.html">
+                        Login
+                    </a>
+
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+
+        <div id="successToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+
+            <div class="toast-header">
+
+                <strong class="me-auto">
+                    TechCore
+                </strong>
+
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close">
+                </button>
+
+            </div>
+
+            <div class="toast-body">
+                Account created successfully!
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/menuToggle.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="nav-container">
+            <div class="logo"> <a href="../index.html"> TECH<span class="accent-text">CORE</span> </a> </div>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li> <a href="../index.html" class="active"> Home </a> </li>
+                    <li> <a href="../index.html#about"> About Us </a> </li>
+                    <li> <a href="../index.html#services"> Services </a> </li>
+                    <li> <a href="projects.html"> Projects </a> </li>
+                    <li> <a href="contact.html"> Contact Us </a> </li>
+                </ul>
+            </nav>
+            <div class="nav-actions"> <a href="login.html" class="btn-primary"> login </a> </div> <button
+                class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu"> ☰ </button>
+        </div>
+    </header>
+    <main>
+        <!-- <section class="video-section">
+    <video class="intro-video" autoplay muted loop playsinline>
+        <source src="videos/0a143338a4d5bb1c99fd25860a056684.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </section> -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+
+                <h2 class="projects-title">Our Projects</h2>
+                <p calss="descr">A showcase of products and solutions we deliver Click any project to explore the full
+                    details.</p>
+
+                <div class="projects-content">
+
+                    <div class="project-card">
+                        <img src="../images/smartsyst.png" alt="Web Development">
+                        <h3 class="title-pro">Smart Business Platform</h3>
+                        <p class="subtitle-pro">
+                            A powerful business management platform designed to simplify
+                            operations, improve productivity, and support better decision-making.
+                        </p>
+                        <button type="button" class="project-details" data-project="business" data-bs-toggle="modal"
+                            data-bs-target="#projectModal">
+                            View Details
+                        </button>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="../images/CLOUDE.jpg" alt="Web Development">
+                        <h3 class="title-pro">Cloud Management System</h3>
+                        <p class="subtitle-pro">
+                            A scalable cloud-based system that provides secure data storage,
+                            reliable infrastructure, and easy access from anywhere.
+                        </p>
+                        <button type="button" class="project-details" data-project="cloud" data-bs-toggle="modal"
+                            data-bs-target="#projectModal">
+                            View Details
+                        </button>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="../images/cyber.jpeg" alt="Web Development">
+                        <h3 class="title-pro">Cyber Security Center</h3>
+                        <p class="subtitle-pro">
+                            An advanced security solution built to monitor systems, detect
+                            potential threats, and protect critical business information.
+                        </p>
+                        <button type="button" class="project-details" data-project="security" data-bs-toggle="modal"
+                            data-bs-target="#projectModal">
+                            View Details
+                        </button>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="../images/E-CO.jpg" alt="Web Development">
+                        <h3 class="title-pro">E-Commerce Website</h3>
+                        <p class="subtitle-pro">
+                            A modern e-commerce platform with a seamless shopping experience,
+                            secure payments, and efficient product management.
+                        </p>
+                        <button type="button" class="project-details" data-project="ecommerce" data-bs-toggle="modal"
+                            data-bs-target="#projectModal">
+                            View Details
+                        </button>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="../images/mobliapp.jpg" alt="Web Development">
+                        <h3 class="title-pro">Mobile Service App</h3>
+                        <p class="subtitle-pro">
+                            A user-friendly mobile application that connects customers with
+                            essential services through a fast and convenient experience.
+                        </p>
+                        <button type="button" class="project-details" data-project="mobile" data-bs-toggle="modal"
+                            data-bs-target="#projectModal">
+                            View Details
+                        </button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <div class="modal" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h2 class="modal-title" id="projectModalLabel">
+                        Project Details
+                    </h2>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+
+                </div>
+
+                <div class="modal-body" id="projectModalContent">
+
+                    <p>Loading...</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="main-footer">
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-info">
+                    <h2>TECH<span>CORE</span></h2>
+                    <p>
+                        We provide innovative technology solutions that help businesses
+                        grow, improve performance, and achieve digital success.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="../index.html">Home</a>
+                    <a href="../index.html#about">About Us</a>
+                    <a href="../index.html#services">Services</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <a href="../index.html#services">Software Development</a>
+                    <a href="../index.html#services">Cloud Infrastructure</a>
+                    <a href="../index.html#services">Cybersecurity</a>
+                    <a href="i../ndex.html#services">Web Development</a>
+                    <a href="../index.html#services">Mobile App Development</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@techcore.com</p>
+                    <p>Phone: +967 777 012 000</p>
+                    <p>Sana'a, Yemen</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 TechCore. All Rights Reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="../js/project-modal.js"></script>
+    <script src="../js/menuToggle.js"></script>
+
+</body>
+
+</html>

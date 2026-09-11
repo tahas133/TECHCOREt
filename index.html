@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tech Solutions Company</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+
+
+<body>
+    <header class="main-header">
+        <div class="nav-container">
+            <div class="logo"> <a href="index.html"> TECH<span class="accent-text">CORE</span> </a> </div>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li> <a href="index.html"  class="active" > Home </a> </li>
+                    <li> <a href="index.html#about" > About Us </a> </li>
+                    <li> <a href="index.html#services"> Services </a> </li>
+                    <li> <a href="projects.html"> Projects </a> </li>
+                    <li> <a href="contact.html"> Contact Us </a> </li>
+                </ul>
+            </nav>
+            <div class="nav-actions"> <a href="login.html" class="btn-primary"> login </a> </div> <button
+                class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu"> ☰ </button>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section" id="home">
+            <div class="container">
+
+                <div class="hero-content">
+
+                    <div class="hero-info">
+                        <h1>
+                            Scaling Tech Solutions For Your
+                            <span class="text">Business</span>
+                        </h1>
+
+                        <p>
+                            We deliver cutting-edge software development, cloud infrastructure,
+                            and cybersecurity solutions tailored to accelerate your digital transformation.
+                        </p>
+
+                        <div class="hero-buttons">
+                            <a href="projects.html" class="btn-primary">Our Work</a>
+                            <a href="contact.html" class="btn-secondary">Get Started</a>
+                        </div>
+                    </div>
+
+                    <img class="hero-image" src="../images/images.png" alt="our">
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2 class="title">About TechCore</h2>
+
+                <div class="about-content">
+
+                    <div class="about-info">
+
+                        <h3 class="who">who we are</h3>
+
+                        <p class="subtitle">
+                            TechCore is a technology solutions company that provides modern
+                            software development, cloud infrastructure, and cybersecurity services.
+                            Our goal is to help businesses use technology in a simple, secure,
+                            and effective way.
+                        </p>
+
+                    </div>
+
+                    <div class="about">
+                        <img class="about-image" src="../images/who.jpg" alt="About TechCore">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="services-section" id="services">
+            <div class="container">
+
+                <h2 class="services-title">Our Services</h2>
+
+                <div class="services-content">
+
+
+                    <div class="service-card">
+                        <img src="../images/software.jpg" alt="Software Development">
+
+                        <h3>Software Development</h3>
+
+                        <p>
+                            We build powerful and reliable software solutions designed
+                            to improve your business performance and meet your unique needs.
+                        </p>
+
+                        <button type="button" class="service-details" data-service="software" data-bs-toggle="modal"
+                            data-bs-target="#serviceModal">
+                            View Details
+                        </button>
+                    </div>
+
+
+                    <div class="service-card">
+                        <img src="../images/cloud.jpg" alt="Cloud Infrastructure">
+
+                        <h3>Cloud Infrastructure</h3>
+
+                        <p>
+                            We provide scalable and secure cloud infrastructure that helps
+                            your business grow faster while improving flexibility and efficiency.
+                        </p>
+
+                        <button type="button" class="service-details" data-service="cloud" data-bs-toggle="modal"
+                            data-bs-target="#serviceModal">
+                            View Details
+                        </button>
+                    </div>
+
+
+                  
+                    <div class="service-card">
+                        <img src="../images/cybersecurity.jpg" alt="Cybersecurity">
+
+                        <h3>Cybersecurity</h3>
+
+                        <p>
+                            We protect your systems and valuable data with modern security
+                            solutions designed to detect threats and reduce cyber risks.
+                        </p>
+
+                        <button type="button" class="service-details" data-service="cybersecurity"
+                            data-bs-toggle="modal" data-bs-target="#serviceModal">
+                            View Details
+                        </button>
+                    </div>
+
+
+               
+                    <div class="service-card">
+                        <img src="../images/web-development.jpg" alt="Web Development">
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            We create modern, fast, and user-friendly websites that deliver
+                            a strong digital presence and an excellent experience for users.
+                        </p>
+
+                        <button type="button" class="service-details" data-service="web" data-bs-toggle="modal"
+                            data-bs-target="#serviceModal">
+                            View Details
+                        </button>
+                    </div>
+
+
+                    <div class="service-card">
+                        <img src="../images/mobile-app.jpg" alt="Mobile App Development">
+
+                        <h3>Mobile App Development</h3>
+
+                        <p>
+                            We develop innovative mobile applications that combine
+                            performance, usability, and modern design for different platforms.
+                        </p>
+
+                        <button type="button" class="service-details" data-service="mobile" data-bs-toggle="modal"
+                            data-bs-target="#serviceModal">
+                            View Details
+                        </button>
+                    </div>
+
+
+                    <div class="service-card">
+                        <img src="../images/it-consulting.jpg" alt="IT Consulting">
+
+                        <h3>IT Consulting</h3>
+
+                        <p>
+                            We provide expert technology guidance to help businesses
+                            choose the right solutions, solve technical challenges, and grow.
+                        </p>
+
+                        <button type="button" class="service-details" data-service="consulting" data-bs-toggle="modal"
+                            data-bs-target="#serviceModal">
+                            View Details
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="section-wow">
+            <div class="container">
+                <h2 class="title-Clients">Our Clients</h2>
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                        <img src="../images/unicef-msXXXY87.png" alt="Slide 1">
+                        <img src="../images/sohobcom-CmgViHsD.png" alt="Slide 2">
+                        <img src="../images/Yemen_logo-3QCrj2Dt.png" alt="Slide 3">
+                        <img src="../images/sanauniv-CH-Td-4j.png" alt="Slide 4">
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+    <div class="modal" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h2 class="modal-title" id="serviceModalLabel">
+                        Service Details
+                    </h2>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+
+                </div>
+
+                <div class="modal-body" id="modalContent">
+
+                    <p>Loading...</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="main-footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-info">
+                    <h2>TECH<span>CORE</span></h2>
+                    <p>
+                        We provide innovative technology solutions that help businesses
+                        grow, improve performance, and achieve digital success.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#services">Services</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <a href="#services">Software Development</a>
+                    <a href="#services">Cloud Infrastructure</a>
+                    <a href="#services">Cybersecurity</a>
+                    <a href="#services">Web Development</a>
+                    <a href="#services">Mobile App Development</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@techcore.com</p>
+                    <p>Phone: +967 777 012 000</p>
+                    <p>Sana'a, Yemen</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 TechCore. All Rights Reserved.</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="../js/modal.js"></script>
+<script src="../js/menuToggle.js">
+</script>
+
+</body>
+
+</html>
